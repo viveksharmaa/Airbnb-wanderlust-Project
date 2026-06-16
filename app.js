@@ -7,7 +7,7 @@ const app = express();
 const mongoose = require("mongoose");
 const path = require("path");
 const methodOverride = require("method-override");
-const { redirect } = require("react-router-dom");
+
 const ejsMate = require("ejs-mate");
 const ExpressError = require('./utils/ExpressError.js');
 const listings = require("./routes/listing.js");
