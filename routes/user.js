@@ -6,7 +6,6 @@ const passport = require("passport");
 const { saveRedirectUrl } = require("../middleware.js");
 const { signup } = require("../controllers/users.js");
 const userController = require("../controllers/users.js");
-const { useSyncExternalStore } = require("react");
 
 router
 .route("/signup")
